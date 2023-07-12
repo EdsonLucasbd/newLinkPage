@@ -6,7 +6,7 @@ export default function Home() {
   let year = new Date().getFullYear()
 
   return (
-    <main className="flex w-full min-h-screen flex-col items-center justify-between p-24 bg-radial-gradient md:justify-center md:gap-5">
+    <main className="flex w-full min-h-screen flex-col items-center justify-center gap-y-5 p-20 bg-radial-gradient md:justify-center">
       <LinesAnimationPattern />
       <Image className='z-10 drop-shadow-md' src={'/foto-pag-links.png'} alt='' width={201} height={201} aria-hidden />
       <div className=' flex flex-col justify-between items-center gap-2 md:gap-1 md:mb-8'>

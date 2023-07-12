@@ -30,7 +30,7 @@ const iconMotion = {
 export const Button = ({ label, link, icon }: ButtonProps) => {
   return (
     <motion.a
-      className="relative flex justify-center shadow-md shadow-[#1f1031] items-center rounded-lg text-sm font-bold md:text-lg md:font-medium md:w-[18.75rem] md:h-14 w-[12.5625rem] h-12 bg-[#885ABC] text-[#F7F7FF]"
+      className="relative flex justify-center shadow-md shadow-[#1f1031] -ml-5 items-center rounded-lg text-sm font-bold md:text-lg md:font-medium md:w-[18.75rem] md:h-14 w-[12.5625rem] h-12 bg-[#885ABC] text-[#F7F7FF]"
       href={link}
       initial="initial"
       animate="initial"
